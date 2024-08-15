@@ -1,0 +1,40 @@
+{
+	"name": "@muvon/event",
+	"version": "0.1.0",
+	"description": "Simple event emitter library",
+	"publishConfig": {
+		"access": "public"
+	},
+	"type": "module",
+	"main": "./src/index.js",
+	"exports": {
+		".": "./src/index.js"
+	},
+	"scripts": {
+		"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Muvon/event.git"
+	},
+	"keywords": [
+		"event",
+		"emitter",
+		"event emitter",
+		"pubsub",
+		"javascript"
+	],
+	"author": "Muvon Un Limited <hello@muvon.io>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Muvon/event/issues"
+	},
+	"homepage": "https://github.com/Muvon/event#readme",
+	"devDependencies": {
+		"jest": "^29.7.0"
+	},
+	"directories": {
+		"test": "test"
+	}
+}
+
